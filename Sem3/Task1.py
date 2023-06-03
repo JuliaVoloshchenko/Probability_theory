@@ -8,9 +8,9 @@
 
 array = [100, 80, 75, 77, 89, 33, 45, 25, 65, 17, 30, 24, 57, 55, 70, 75, 65,
          84, 90, 150]
-sum = 0;
+sum = 0
 for elem in array:
-    sum = sum + elem;
+    sum = sum + elem
 average = sum / len(array)
 print(f'Среднее арифметическое = {average}')
 
